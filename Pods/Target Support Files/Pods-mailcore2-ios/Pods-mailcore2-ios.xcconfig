@@ -1,0 +1,2 @@
+PODS_MAILCORE__IOS_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/mailcore2-ios/lib"
+PODS_MAILCORE__IOS_OTHER_LDFLAGS = -l"MailCore-ios" -l"c++" -l"iconv" -l"xml2" -l"z"

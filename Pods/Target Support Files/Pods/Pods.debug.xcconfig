@@ -1,0 +1,7 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/mailcore2-ios" "${PODS_ROOT}/Headers/Public/mailcore2-ios/MailCore"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/mailcore2-ios/lib"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/mailcore2-ios" -isystem "${PODS_ROOT}/Headers/Public/mailcore2-ios/MailCore"
+OTHER_LDFLAGS = -ObjC -l"MailCore-ios" -l"Pods-mailcore2-ios" -l"c++" -l"iconv" -l"xml2" -l"z"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods
